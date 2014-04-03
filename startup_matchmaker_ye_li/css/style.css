@@ -1,0 +1,274 @@
+#page-container {
+	margin: 0 auto;
+	position: center;
+}
+
+body {
+	margin: 0;
+}
+
+.header-top {
+	background-color: #000;
+	height: 115px;
+	border-bottom: 4px solid yellow;
+	margin-top: 0;
+}
+
+.header-bottom {
+	background-color: #cdcdcd;
+	height: 80px;
+	margin-top: 0; 
+}
+
+header h1 {
+	font-size: 36px;
+	color: yellow;
+	padding: 10px 0 0 30px;
+	margin: 0;
+}
+
+.howitworks a {
+	font-weight: 300;
+	text-decoration: none;
+}
+
+nav ul {
+	float: right;
+	padding-right: 35px;
+	padding-top: 10px;
+}
+
+nav ul li{
+	display: inline;
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	padding-left: 12px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+nav ul li span a {
+	text-decoration: none;
+	color: white;
+}
+
+.because {
+	text-align: center;
+	font-style: italic;
+	height: 40px;
+}
+
+.because h2 {
+	font-size: 30px;
+	margin: 0;
+	padding-top: 18px;
+}
+
+.taste {
+	color: #9c9c9c;
+	text-decoration: line-through;
+}
+
+.are {
+	border-bottom: 3px solid yellow;
+	text-decoration: none;
+	color: #000;
+}
+
+.middle-1 {
+	background: url("../images/coworking.jpg") center center no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+
+.middle-1 h2 {
+	margin-top: 40px;
+	margin-bottom: 5px;
+	font-size: 30px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+}
+
+.middle-box {
+	display: block;
+	background-color: white;
+	width: 250px;
+	height: 360px;
+	float: right;
+	padding: 0 30px 30px 30px;
+	margin: 30px;
+	opacity: 0.8;
+	box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.3);
+
+} 
+
+.middle-1 p {
+	font-family: 'Lato', sans-serif;
+	font-size: 19px;
+	line-height: 26px;
+	letter-spacing: 0.7px;
+	margin-top: 0;
+}
+
+.profile {
+	text-align: center;
+	background-color: yellow;
+	border-bottom: 3px solid #cccc00;
+	border-radius: 6px;
+	padding: 16px 0 10px 0;
+	margin-top: 20px;
+}
+
+.profile a {
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	color: #000;
+}
+
+.bottom {
+	overflow: hidden;
+	position: relative;
+}
+
+.left {
+	width: 230px;
+	margin: 15px 0 15px 15px;
+	border-right: 1px solid #cdcdcd;
+	padding-right: 20px;
+	float: left;
+
+}
+
+.left h2 {
+	font-size:30px;
+	margin-bottom: 5px;
+	margin-top: 0;
+}
+
+.left p {
+	font-size: 19px;
+	font-family: 'Lato', sans-serif;
+	line-height: 26px;
+	letter-spacing: 0.7px;
+	margin-top: 0;
+}
+
+.button-sign-up {
+	display: block;
+	background-color: #cdcdcd;
+	border-bottom: 3px solid #9c9c9c;
+	border-radius: 6px;
+	padding: 16px 0 16px 0;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.button-sign-up a {
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	color: #000;
+}
+
+.middle {
+	width: 230px;
+	float: left;
+	margin: 15px 0 0px 20px;
+	border-right: 1px solid #cdcdcd;
+	padding-right: 20px;
+}
+
+.middle h2 {
+	font-size:30px;
+	margin-bottom: 5px;
+	margin-top: 0;
+}
+
+.middle p {
+	font-size: 19px;
+	font-family: 'Lato', sans-serif;
+	line-height: 26px;
+	letter-spacing: 0.7px;
+	margin-top: 0;
+}
+
+.button-start-1 {
+	display: block;
+	background-color: #cdcdcd;
+	border-bottom: 3px solid #9c9c9c;
+	border-radius: 6px;
+	padding: 16px 0 16px 0;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.button-start-1 a {
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+	letter-spacing: -0.5px;
+	font-weight: 700;
+	font-size: 20px;
+	color: #000;
+}
+
+.right {
+	width: 230px;
+	float: left;
+	margin: 15px 0 0px 20px;
+}
+
+.right h2 {
+	font-size:30px;
+	margin-bottom: 5px;
+	margin-top: 0;
+}
+
+.right p {
+	font-size: 19px;
+	font-family: 'Lato', sans-serif;
+	line-height: 26px;
+	letter-spacing: 1px;
+	margin-top: 0;
+}
+
+.button-start-2 {
+	display: block;
+	background-color: #cdcdcd;
+	border-bottom: 3px solid #9c9c9c;
+	border-radius: 6px;
+	padding: 16px 0 16px 0;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.button-start-2 a {
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+	letter-spacing: -0.5px;
+	font-weight: 700;
+	font-size: 20px;
+	color: #000;
+}
+
+.footer {
+	display: block;
+	background-color: #000;
+	margin-top: 20px;
+}
+
+.footer-1 {
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	letter-spacing: 0.7px;
+	color: white;
+	font-weight: 700;
+	padding: 20px 0 20px 20px;
+}
